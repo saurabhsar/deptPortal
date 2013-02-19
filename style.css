@@ -1,0 +1,110 @@
+/* 
+    Document   : style
+    Created on : Feb 18, 2013, 11:30:17 PM
+    Author     : saurabharaiyer
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+.bgbody{
+    background-color: #f9f9f9;
+}
+
+.header{
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#001A57;
+    alignment-adjust: central;
+    color: #ffffff;
+    font-family: Arial;
+    text-align: center;
+}
+
+.heading {
+    font-size: 250%;
+}
+.subheading{
+    font-size: 150%;
+}
+.mainbody{
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f9f9f9;
+    alignment-adjust: central;
+    text-align: justify;
+}
+.footer{
+    height: 40px;
+    background-color: #001A57;
+    color: #ffffff;
+    font-family: Arial;
+    text-align: center;
+}
+a:link {color:#ffffff;}      /* unvisited link */
+a:visited {color:#ffffff;}  /* visited link */
+a:hover {color:#999999;}  /* mouse over link */
+a:active {color:#555555;}  /* selected link */
+
+#login-button {
+    top: 30px;
+    position: absolute;
+    height: 32px;
+    width: 32px;
+    right: 20px;
+    opacity: 0.7;
+}
+
+#login-button:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+#logo-wrapper{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#loginwrapper {
+	z-index: 9;
+}
+
+#login-dialog {
+    display: none;
+    width: 300px;
+    height: 110px;
+    top: 70px;
+    right: 20px;
+    position: fixed;
+    z-index: 10;
+    padding: 20px 20px 20px 20px;
+    background-color: #ffffff;
+    color: #000000;
+    animation-direction: normal;
+}
+
+#login-dialog {
+    display: none;
+    width: -600px;
+    height: -600px;
+    top: 70px;
+    right: 20px;
+    position: fixed;
+    z-index: 10;
+    padding: 20px 20px 20px 20px;
+}
+
+#login-dialog div {
+    position: relative;
+    width: 100%;
+}
+
+.foot {
+
+}
